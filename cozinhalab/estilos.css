@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #ecbea0;
+}
+
+.navbar a {
+    color: white;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-whatsapp-float {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1030;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #198754;
+    color: white;
+    border-radius: 50%;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.btn-whatsapp-float:hover {
+    color: white;
+    background-color: #157347;
+}
+
+.depoimento-foto {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #1a3a5c;
+    color: white;
+    font-weight: bold;
+}
+
+.video-container iframe {
+    display: block;
+    width: 100%;
+    max-width: 720px;
+    aspect-ratio: 16 / 9;
+    border: 0;
+}
+
+.mapa iframe {
+    display: block;
+    width: 100%;
+    height: 250px;
+    border: 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 12px 64px 0;
+}
